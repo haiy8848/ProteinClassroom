@@ -1,7 +1,7 @@
 
 const messageInput = document.getElementById('message-input');
 const submitBtn = document.getElementById('submit-btn');
-const chatDisplay = document.getElementById('.chat-display');
+const chatDisplay = document.querySelector('.chat-display');
 
 
 submitBtn.addEventListener('click', sendMessage);
