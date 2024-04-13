@@ -48,7 +48,9 @@ body {
 	margin-bottom: 10px;
 }
 
-.chat-message user {
+.chat-message-user {
+	padding: 5px, 10px;
+	margin-bottom: 10px;
 	background-color: #428bca;
 	color: white;
 	text-align: right;
@@ -58,7 +60,9 @@ body {
 	width: 100%;
 }
 
-.chat-message response {
+.chat-message-response {
+	padding: 5px, 10px;
+	margin-bottom: 10px;
 	background-color: #f5f5f5;
 	color: #333;
 }
