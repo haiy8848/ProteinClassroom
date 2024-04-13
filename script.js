@@ -25,6 +25,12 @@ function sendMessage() {
 	  newMessage.style.backgroundColor = '#f5f5f5';
 	  newMessage.style.color = '#333';
   }
+  
+  newMessage.style['text-align'] = 'right';
+  newMessage.style['display'] = 'inline-flex';
+  newMessage.style['justify-content'] = 'right';
+  newMessage.style['align-items'] = 'center';
+  newMessage.style['width'] = '100%';
 
   chatDisplay.appendChild(newMessage);
 
